@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 .css-color{
@@ -184,4 +185,131 @@ table, td, th {
 
     .nav:hover{
         background: #ddd;
+    }
+
+.dropdown{
+    position: relative;
+    
+}
+    .dropbtn{
+        background: #ddd;
+        color: #000;
+        font-size: 1.3em;
+        cursor: pointer;
+        padding: 1em;
+        border: none;   
+    }
+
+    .dropdown-content {
+        background-color: aliceblue;
+        position: absolute;
+        display: none;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: beige;
+        display: block;
+        padding: 1em;   
+    }
+
+    .dropdown-content a:hover {
+        background: #ddd;
+        background-color: bisque;
+        color: gray;
+    }
+    
+    .dropdown-content a:hover {
+        background-color:blanchedalmond;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+      
+.gallery{
+    float: left;
+    margin: 1em;
+    width: 180px;
+    border: 1px solid #ddd;
+    
+}
+    .gallery img{
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery:hover{
+        border: 1px solid black;
+    }
+
+    .description{
+        text-align: center;
+    }
+
+[class$="class"]{
+    color: blue;
+}
+
+input[type=text], select{
+    width: auto;
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    input[type=submit]:hover{
+        background-color: rgb(20, 179, 20)
+    }
+
+.navigation-bar{
+    overflow: hidden;
+    background-color: #ddd;
+}
+    .navigation-bar a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px;
+  
+    }
+
+    .navigation-bar a:hover{
+        background-color: black;
+        color: white;
+    }
+
+.header{
+    text-align: center;
+    background-color: #ddd;
+    padding: 20px;
+
+}
+
+.column{
+    float: left;
+    
+}
+    .column.side{
+        width: 25%;
+        background-color: #ddd
+    }
+    .column.middle{
+        width: 50%;
+        background: rgb(184, 181, 181);
+        
+
     }
