@@ -313,3 +313,79 @@ input[type=submit] {
         
 
     }
+
+.rounded-corner{
+    border-radius: 2em;
+    padding: 2em;
+    background: #ddd;
+    width: fit-content;
+}
+
+.border-image{
+    border: 10px solid ;
+    padding: 2em;
+    border-image: url(border.png) 30 round;
+    text-align: center;
+    width: fit-content;
+}
+
+.css-background{
+    background-image: url(favicon-32x32.png), url(sky.jpg);
+    background-position:left top, left top;
+    padding: 2em;
+    text-align: justify;
+    background-repeat:no-repeat, repeat;
+}
+
+.color-keyword{
+    background-image: url(sky.jpg);
+    width: fit-content;
+}
+    .transparent1{
+        background-color: transparent;
+        padding: 2em;
+        margin: 2em;
+        width: fit-content;
+        border: 1px solid black;
+        
+    }
+
+    .transparent2{
+        background-color: #ddd;
+        padding: 2em;
+        margin: 2em;
+        border: 1px solid black;
+    }
+
+.current-color{
+    color: red;
+    border: 2px solid currentColor;
+    padding: 2em;
+    width: fit-content;
+}
+
+.inherit{
+    color: blue;
+    border-color: inherit;
+    border: 1px solid;
+    padding: 2em;
+    width: fit-content;
+}
+
+.css-gradient{
+    background-color: pink;
+    background-image: linear-gradient(to right, pink, beige);
+    padding: 2em;
+    width: fit-content;
+}
+
+.shadow{
+    border: 1px solid #ddd;
+    padding: 2em;
+    width: fit-content;
+    transition: .3s;
+}
+    .shadow:hover{
+        box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    }
+
