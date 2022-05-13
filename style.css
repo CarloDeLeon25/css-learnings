@@ -512,5 +512,98 @@ input[type=submit] {
         padding: 1.2em;
     }
 
-    
+.object-fit{
+    width: 20%;
+    object-fit: cover;
+}
 
+.masking{
+    -webkit-mask-image: linear-gradient(#ddd, transparent);
+    mask-image: linear-gradient(#ddd, transparent);
+}
+
+.css-button{
+    width: fit-content;
+    background-color: #ddd;
+    color: black;
+    border: 1px solid rgb(51, 50, 50);
+    padding: 2em;
+    font-size: 1.3em;
+    transition-duration: .5s;
+    margin:2em;
+}   
+    .css-button:hover{
+        box-shadow: 0 0 11px rgba(20,20,20,.2);
+    }
+
+.css-pagination{
+    margin: 2em;
+
+    }
+    .css-pagination a{
+        display: inline-block;
+        color: black;
+        background-color: white;
+        padding: 5px 10px;
+        transition: .3s;
+        border: 1px solid #ddd;
+
+    }
+    .css-pagination a:hover{
+        background-color: #ddd;
+    }
+
+.css-column{
+    padding: 2em;
+    column-count: 4;
+    column-rule: 1px solid #ddd;
+    column-gap: 1.2em;
+    text-align: justify;
+}
+
+.user-interface{
+    border: 1px solid #ddd;
+    padding: 2em;
+    resize: both;
+    overflow: auto;
+    width: fit-content;
+}
+
+:root{
+    --gray: #ddd;
+    --beige: #f5f5dc;
+    --border: 1px solid black;
+    --width: fit-content;
+    --padding: 2em;     
+
+}
+
+    .var1{
+        background: var(--gray);
+        padding: var(--padding);
+        border: var(--border);
+        width: var(--width);
+    }
+    .var2{
+        background-color: var(--beige);
+        padding: var(--padding);
+        border: var(--border);
+        width: var(--width);
+    }
+
+.box-sizing{
+    box-sizing: border-box;
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 2em;
+}
+
+    .box-sizing1{
+        box-sizing: border-box;
+        padding: 30px;
+        border: 1px solid black;
+        width: 300px;
+        height: 200px;
+        margin: 2em;
+    }
