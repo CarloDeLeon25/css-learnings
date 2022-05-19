@@ -829,3 +829,44 @@ input[type="submit"]:hover {
     max-width: 100%;
   }
 }
+
+.grid-view-container {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 1em;
+  width: auto;
+  margin: 2em;
+}
+.grid-box {
+  background: #ccc;
+  border: 1px solid black;
+  text-align: center;
+  padding: 2em;
+}
+
+@media (min-width: 500px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 700px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.rwd-image{
+  background-repeat: no-repeat;
+  background-image: url(1.jpg);
+  
+}
+
+@media only screen and (min-width:400px){
+  .rwd-image{
+    background-image: url(2.jpg);
+  }
+}
